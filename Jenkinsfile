@@ -10,7 +10,14 @@ pipeline {
     }
 
     stages {
-
+        stage('Verify Node') {
+            steps {
+                 sh 'which node'
+                 sh 'node --version'
+                 sh 'npm --version'
+                 sh 'echo $PATH'
+            }
+       }
         stage('Checkout') {
             steps {
                 checkout scm
