@@ -31,6 +31,11 @@ pipeline {
         }
 
         stage('Install Playwright Browsers') {
+            when {
+                expression {
+                    return !fileExists("${env.HOME}/.cache/ms-playwright")
+                }
+            }
             steps {
                 sh 'npx playwright install chromium'
             }
