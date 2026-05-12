@@ -17,7 +17,7 @@ export default defineConfig({
   //open: 'never' is important — without it, Playwright tries to open the browser report automatically, which will hang your Jenkins build forever.
   reporter: [
     ['html', { outputFolder: 'playwright-report', open: 'never' }],
-    ['junit', { outputFile: 'test-results/results.xml' }],
+    ['allure-playwright'],
 ],
   
 });

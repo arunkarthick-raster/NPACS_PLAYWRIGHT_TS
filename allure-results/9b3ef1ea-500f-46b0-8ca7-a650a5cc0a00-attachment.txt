@@ -1,0 +1,3 @@
+Groups:  [ '/Sonologist', '/Transcriptionist', '/Radiologist' ]
+RIS | Front Office
+Testcase passed

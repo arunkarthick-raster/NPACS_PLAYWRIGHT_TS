@@ -1,0 +1,3 @@
+Groups:  [ '/Junior Radiologist', '/Radiologist' ]
+RIS | Front Office
+Testcase passed

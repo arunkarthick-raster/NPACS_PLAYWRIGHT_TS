@@ -1,0 +1,3 @@
+Groups:  [ '/Duty Radiologist', '/Radiologist' ]
+RIS | Front Office
+Testcase passed

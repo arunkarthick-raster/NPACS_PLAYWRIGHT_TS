@@ -1,0 +1,3 @@
+Groups:  [ '/Referring Doctor' ]
+RIS | Front Office
+Testcase passed

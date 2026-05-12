@@ -1,0 +1,3 @@
+Groups:  [ '/Ward User' ]
+RIS | Front Office
+Testcase passed
