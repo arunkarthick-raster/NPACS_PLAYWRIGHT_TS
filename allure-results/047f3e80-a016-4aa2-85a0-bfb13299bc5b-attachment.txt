@@ -1,3 +1,0 @@
-Groups:  [ '/Gatekeeper' ]
-RIS | Front Office
-Testcase passed
